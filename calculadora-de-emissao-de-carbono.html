@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Calculadora de Emissão de Carbono
+</title>
+  <meta name="keywords"
+    content="Emissão de carbono, Gases de efeito estufa, Dióxido de carbono, Pegada de carbono, Consumo de energia, Consumo residencial, Fator de emissão, Eletricidade, Gás natural, Fontes de energia, Renovável, Não renovável, Energia solar, Energia eólica, Energia hidrelétrica, Energia nuclear, Eficiência energética, Estilo de vida sustentável, Transporte sustentável, Transporte público, Carro elétrico, Consumo consciente, Reciclagem, Compostagem, Energia limpa, Sustentabilidade, Redução de emissões, Neutralização de carbono, Reflorestamento, Energia geotérmica, Eficiência energética em edifícios, Energia renovável descentralizada, Economia de energia, Mudanças climáticas, Poluição do ar, Política ambiental, Protocolo de Kyoto, Acordo de Paris, Créditos de carbono, Compensação de carbono, Desenvolvimento sustentável, Educação ambiental, Sustentabilidade corporativa, Ciclo de vida do produto, Redução de desperdício, Economia de recursos naturais, Inovação verde, Tecnologias limpas, Energia de biomassa, Energia de resíduos, Eficiência de combustível, Agricultura sustentável, Desflorestação, Energia offshore, Energia maremotriz, Energia de ondas, Energia de marés, Responsabilidade ambiental, Energia sustentável, Monitoramento de emissões, Metas de redução de carbono, Análise de ciclo de vida, Eficiência de transporte, Energia de hidrogênio, Energia limpa para todos, Tecnologias de baixo carbono, Indústria sustentável, Construção verde, Energia descentralizada, Aquecimento global, Eficiência de iluminação, Uso de materiais sustentáveis, Certificação energética, Gestão de resíduos, Poluição atmosférica, Impacto ambiental, Sistemas de transporte inteligentes, Desenvolvimento de infraestrutura verde, Conservação de energia, Energia eficiente">
+  <meta name="description"
+  content=" Calculadora de emissão de carbono: avalie seu impacto ambiental ">
+  <meta name="author" content="Diogo Kravetz">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+  
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/dashboard.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+
+</head>
+
+<body style="background-image: url(assets/img/agrinhobackgraud.png)">
+
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="background-color: #222222;" href="index.html">Transformação Global</a>
+       
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link"  aria-current="page" href="index.html">Home</a>
+            </li>
+
+          </ul>
+        </div>
+        <form class="d-flex">
+          <script>
+            var href;
+            function myfunction(){
+            $('form').on('submit', function(e) {
+              e.preventDefault();
+              href = $('datalist option[value="' +$('input[list="categorias"]').val()+ '"]').find('a').prop('href');
+              if(typeof href !== 'undefined')
+                window.location.href = href;
+              });
+            }
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+             
+     <input list="categorias" type="text" class="form-control me-2" oninput="myfunction()" placeholder="Search" >
+     <datalist id="categorias">
+
+     
+      <option value="Home"><a href="index.html"></a></option>
+      <option value="Calculadora de Emissão de Carbono"><a href="calculadora-de-emissao-de-carbono.html"></a></option>
+      <option value="Gerenciar Gasto de Água"><a href="gerenciar-gasto-de-agua.html"></a></option>
+      <option value="Calculadora de Consumo de Energia"><a href="calculadora-de-consumo-de-energia.html"></a></option>
+      <option value="Conservação Ambiental"><a href="conservacao-ambiental.html"></a></option>
+      <option value="Doações"><a href="doacoes.html"></a></option>
+      <option value="Agricultura Sustentável"><a href="agricultura-sustentavel.html"></a></option>
+      <option value="Preservação aos Oceanos"><a href="oceanos.html"></a></option>
+      <option value="Espécies Ameaçadas"><a href="especies-ameacadas.html"></a></option>
+      <option value="Crise da Água"><a href="crise-da-agua.html"></a></option>
+      <option value="Reduzir o Consumo do Plástico"><a href="reduzir-o-consumo-do-plastico.html"></a></option>
+      <option value="Preservação das Florestas"><a href="preservacao-das-florestas.html"></a></option>
+      <option value="Alimentação Sustentável"><a href="alimentacao-sustentavel.html"></a></option>
+      <option value="Mobilidade Urbana"><a href="mobilidade-urbana-sustentavel.html"></a></option>
+      <option value="Agricultura Ôrganica"><a href="agricultura-organica.html"></a></option> 
+      <option value="Educação Ambiental"><a href="educacao-ambiental.html"></a></option>
+                        
+      
+      </datalist>
+      
+      
+        <button class="btn btn-outline-success" value="Procurar" id="categorias" type="submit">Search</button>
+         </form>        </div>
+      </div>
+    </nav>   
+      
+          </nav>
+
+
+<link rel='stylesheet' href='posts1.css' type='text/css' media='all' />
+<link rel='stylesheet' href='post2.css' type='text/css' media='all' />
+
+</style>
+</head>
+
+<div class="wrap">
+  
+<article class="blglst">
+
+        </div>
+        <link rel='stylesheet' href='posts1.css' type='text/css' media='all' />
+        <link rel='stylesheet' href='post2.css' type='text/css' media='all' />
+        
+        </style>
+        </head>
+        
+        <div class="wrap">
+          
+        <article class="blglst">
+        
+
+    
+
+          <h1 style="color:#dcdcdc;">Calculadora de Emissão de Carbono: Medindo o Impacto Ambiental</h1>
+          <div style="max-width: 500px; margin: 0 auto; padding: 20px; background-color: #ffffff; border: 1px solid #cccccc; border-radius: 5px;">
+        <h2 style="color: #009688;">Calculadora de Emissão de Carbono</h2>
+        <form method="POST" class="post-form">
+            <label for="car-distance" style="display: block; margin-bottom: 10px;">Distância percorrida de carro (em km):</label>
+            <input type="number" id="car-distance" value="0" style="width: 100%; padding: 10px; border-radius: 3px; border: 1px solid #cccccc; color: #333333;" required>
+
+            <label for="car-quantity" style="display: block; margin-top: 10px; margin-bottom: 10px;">Quantidade de carros:</label>
+            <input type="number" id="car-quantity" value="0" style="width: 100%; padding: 10px; border-radius: 3px; border: 1px solid #cccccc; color: #333333;" required>
+
+            <button type="button" onclick="calculate()" style="background-color: #009688; color: #ffffff; border: none; padding: 10px 20px; border-radius: 3px; cursor: pointer; margin-top: 10px;">Calcular</button>
+            <div id="result" style="font-weight: bold; margin-top: 10px; color: #009688;"></div>
+        </form>
+    </div>
+
+    <script>
+        function calculate() {
+            var carDistance = parseFloat(document.getElementById('car-distance').value);
+            var carQuantity = parseFloat(document.getElementById('car-quantity').value);
+
+            var carEmission = calculateCarEmission(carDistance, carQuantity);
+
+            var totalEmission = carEmission;
+
+            document.getElementById('result').innerHTML = "Total de emissão de carbono: " + totalEmission.toFixed(2) + " kg CO2";
+        }
+
+        function calculateCarEmission(distance, quantity) {
+            var emissionFactor = 0.12; // Fator de emissão de carbono para carros (em kg CO2 por km)
+            return emissionFactor * distance * quantity;
+        }
+    </script>
+
+          
+          <p style="color:#dcdcdc;"><big>As mudanças climáticas representam um dos maiores desafios enfrentados pela humanidade atualmente, com o aumento das emissões de gases de efeito estufa e o consequente aquecimento global, é imprescindível que tomemos medidas para reduzir nossa pegada de carbono, nesse contexto, as calculadoras de emissão de carbono surgem como ferramentas importantes para medir e conscientizar sobre o impacto ambiental de nossas ações.</big></p>
+          <img src="assets/img/climate-change-issue-7575216_1280(2).jpg"    class="stretched-link"style="width: auto; max-width: 100%;
+ margin: 5px auto;
+ display: block;
+
+    text-align: center padding: 80px 40px max-width: 100%;">
+          
+          <h2 style="color:#dcdcdc;">O Que é uma Calculadora de Emissão de Carbono?</h2>
+          <p style="color:#dcdcdc;"><big>Uma calculadora de emissão de carbono é uma ferramenta online que permite estimar a quantidade de gases de efeito estufa emitidos por indivíduos, empresas, produtos ou eventos específicos, essas calculadoras levam em consideração diversos fatores, como consumo de energia, transporte, alimentação e estilo de vida, a fim de fornecer uma avaliação abrangente do impacto ambiental.</big></p>
+          <p style="color:#dcdcdc;"><big>Com o objetivo de engajar e conscientizar a população, a calculadora de emissão de carbono está se tornando cada vez mais acessível e fácil de usar, ela fornece informações valiosas sobre a quantidade de dióxido de carbono (CO2) e outros gases liberados na atmosfera, permitindo que as pessoas avaliem seu impacto e identifiquem áreas em que podem reduzir suas emissões.</big></p>
+          <h2 style="color:#dcdcdc;">Como a Calculadora de Emissão de Carbono?</h2>
+          <p style="color:#dcdcdc;"><big>Uma calculadora de emissão de carbono utiliza uma série de fórmulas e dados para estimar as emissões de gases de efeito estufa, o usuário insere informações relacionadas a diferentes aspectos de sua vida diária, como consumo de energia elétrica, uso de transporte, hábitos alimentares e outras atividades.</big></p>
+          <p style="color:#dcdcdc;"><big>A calculadora, então, processa esses dados e aplica coeficientes de emissão padronizados para cada categoria, esses coeficientes são baseados em médias de emissões associadas a diferentes tipos de energia, combustíveis e atividades, ao final, a calculadora apresenta um resultado que indica a quantidade estimada de emissões de carbono, geralmente expressa em toneladas de CO2 equivalente.</big></p>
+          <h2 style="color:#dcdcdc;">Benefícios e Importância da Calculadora de Emissão de Carbono</h2>
+          <p style="color:#dcdcdc;"><big>A calculadora de emissão de carbono desempenha um papel fundamental na luta contra as mudanças climáticas, ela traz uma série de benefícios e são importantes por diversos motivos:</big></p>
+          <h2 style="color:#dcdcdc;">1. Conscientização</h2>
+          <p style="color:#dcdcdc;"><big>As calculadoras de emissão de carbono ajudam a aumentar a conscientização sobre o impacto ambiental de nossas ações diárias, ao visualizar os resultados das emissões, os usuários podem perceber como suas escolhas afetam o meio ambiente e, assim, sentir-se motivados a adotar práticas mais sustentáveis.</big></p>
+          <h2 style="color:#dcdcdc;">2. Educação Ambiental</h2>
+          <p style="color:#dcdcdc;"><big>A calculadora também desempenham um papel importante na educação ambiental, ela fornece informações sobre as principais fontes de emissões de carbono e como reduzi-las, permitindo que as pessoas aprendam sobre o impacto das diferentes atividades e façam escolhas mais conscientes e informadas.</big></p>
+          <h2 style="color:#dcdcdc;">3. Estabelecimento de Metas</h2>
+          <p style="color:#dcdcdc;"><big>Ao medir suas emissões de carbono, as pessoas e as empresas podem estabelecer metas realistas para a redução de sua pegada de carbono, as calculadoras fornecem uma base sólida para definir objetivos e acompanhar o progresso ao longo do tempo, permitindo que todos se envolvam em ações concretas para combater as mudanças climáticas.</big></p>
+          <h2 style="color:#dcdcdc;">4. Tomada de Decisões Sustentáveis</h2>
+          <p style="color:#dcdcdc;"><big>As informações fornecidas pelas calculadoras de emissão de carbono auxiliam na tomada de decisões mais sustentáveis, ao compreender o impacto ambiental de diferentes ações e escolhas, as pessoas podem optar por alternativas mais eco-friendly, como usar transporte público, investir em energia renovável ou consumir produtos com menor pegada de carbono.</big></p>
+          <h2 style="color:#dcdcdc;">5. Engajamento de Empresas e Governos</h2>
+          <p style="color:#dcdcdc;"><big>Além de indivíduos, a calculadora de emissão de carbono também é valiosa para empresas e governos, elas permitem que as organizações meçam e gerenciem suas emissões, identifiquem oportunidades de redução e implementem políticas e práticas mais sustentáveis, essa abordagem é crucial para a transição para uma economia de baixo carbono.</big></p>
+          <h2 style="color:#dcdcdc;">Conclusão</h2>
+          <p style="color:#dcdcdc;"><big>A calculadora de emissão de carbono é uma ferramenta poderosa para medir e conscientizar sobre o impacto ambiental de nossas ações, ela desempenha um papel fundamental na luta contra as mudanças climáticas, ajudando a aumentar a conscientização, educar, estabelecer metas, promover a competição saudável, embasar decisões sustentáveis e engajar empresas e governos.</big></p>
+          <p style="color:#dcdcdc;"><big>Ao utilizar calculadoras de emissão de carbono e adotar medidas para reduzir nossa pegada de carbono, podemos contribuir para a construção de um futuro mais sustentável e transformar o mundo em um lugar melhor para as gerações futuras.</big></p>
+          
+          
+                
+         
+    
+    </main>
+  </div>
+  </div>
+  
+
+<style>
+  #label1{
+ background-color: white;
+ text-align:center;
+ border: 10;
+ border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+</style>
+ 
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+    integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
+    integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+
+</html>
