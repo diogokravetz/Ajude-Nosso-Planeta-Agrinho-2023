@@ -4,10 +4,12 @@
 
 <h2 align="center">Transformando o Futuro: Projeto Agrinho - Semear Conhecimento, Colher Transformações!</h2> 
 
-Bem-vindo ao Projeto Agrinho 2023: Ações que Transformam o Mundo!
+
 <img src="https://diogokravetz.github.io/Ajude-Nosso-Planeta-Agrinho-2023/assets/img/earth-1756274_1920.jpg" style="width: auto; max-width: 100%;
  margin: 5px auto;
  display: block; text-align: center padding: 80px 40px max-width: 100%;"> 
+
+Bem-vindo ao Projeto Agrinho 2023: Ações que Transformam o Mundo!
 
 O Projeto Agrinho é uma iniciativa inovadora e inspiradora que busca promover ações ambientais transformadoras, criado especificamente para o Concurso Agrinho 2023, nosso objetivo é conscientizar e mobilizar pessoas em prol da preservação ambiental, visando criar um futuro sustentável e harmonioso para todos.
 
