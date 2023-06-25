@@ -128,22 +128,22 @@
           <h2 style="color: #009688;">Calculadora de Consumo de Energia</h2>
           <form method="POST" class="post-form">
             <label for="power" style="color: #333333;">Potência do Aparelho (em Watts):</label>
-            <input type="number" class="input-field" id="power" required>
+            <input value="0" type="number" class="input-field" id="power" required>
             <br>
             <label for="hours" style="color: #333333;">Horas de Uso Diário:</label>
-            <input type="number" class="input-field" id="hours" required>
+            <input value="0" type="number" class="input-field" id="hours" required>
             <br>
             <label for="days" style="color: #333333;">Dias de Uso Mensal:</label>
-            <input type="number" class="input-field" id="days" required>
+            <input value="0" type="number" class="input-field" id="days" required>
             <br>
             <label for="rate" style="color: #333333;">Tarifa de Energia (em R$/kWh):</label>
-            <input type="number" class="input-field" id="rate" required>
+            <input value="0" type="number" class="input-field" id="rate" required>
             <br>
             <label for="discount" style="color: #333333;">Desconto (%):</label><br>
-            <input type="number" class="input-field" id="discount" required>
+            <input value="0" type="number" class="input-field" id="discount" required>
             <br>
             <label for="tax" style="color: #333333;">Impostos (%):</label><br>
-            <input type="number" class="input-field" id="tax" required>
+            <input value="0" type="number" class="input-field" id="tax" required>
             <br>
             <br>
             <button type="button" style="background-color: #009688; color: #ffffff; border: none; padding: 10px 20px; border-radius: 3px; cursor: pointer;" onclick="calculate()">Calcular</button>
